@@ -827,7 +827,11 @@
         "comment": "bool"
       },
       "m_bIsPlayerNameDirty": {
-        "value": 2092,
+        "value": 2108,
+        "comment": "bool"
+      },
+      "m_bMvpNoMusic": {
+        "value": 2088,
         "comment": "bool"
       },
       "m_bPawnHasDefuser": {
@@ -845,6 +849,10 @@
       "m_bScoreReported": {
         "value": 1993,
         "comment": "bool"
+      },
+      "m_eMvpReason": {
+        "value": 2092,
+        "comment": "int32_t"
       },
       "m_flForceTeamTime": {
         "value": 1836,
@@ -903,7 +911,15 @@
         "comment": "int32_t"
       },
       "m_iMVPs": {
-        "value": 2088,
+        "value": 2104,
+        "comment": "int32_t"
+      },
+      "m_iMusicKitID": {
+        "value": 2096,
+        "comment": "int32_t"
+      },
+      "m_iMusicKitMVPs": {
+        "value": 2100,
         "comment": "int32_t"
       },
       "m_iPawnArmor": {
@@ -5743,10 +5759,6 @@
         "value": 6859,
         "comment": "bool"
       },
-      "m_bDroppedFromDeath": {
-        "value": 6860,
-        "comment": "bool"
-      },
       "m_bIsPlantingViaUse": {
         "value": 6817,
         "comment": "bool"
@@ -5942,6 +5954,10 @@
       "m_nDefaultAnimLoopMode": {
         "value": 4232,
         "comment": "AnimLoopMode_t"
+      },
+      "m_sInitialWeaponState": {
+        "value": 4240,
+        "comment": "CUtlString"
       }
     },
     "comment": "C_BaseFlex"
@@ -7117,6 +7133,10 @@
         "value": 4888,
         "comment": "float"
       },
+      "m_flLastSmokeAge": {
+        "value": 5660,
+        "comment": "float"
+      },
       "m_flLastSmokeOverlayAlpha": {
         "value": 5656,
         "comment": "float"
@@ -7138,7 +7158,7 @@
         "comment": "float"
       },
       "m_flNextMagDropTime": {
-        "value": 5684,
+        "value": 5688,
         "comment": "float"
       },
       "m_flNightVisionAlpha": {
@@ -7290,7 +7310,7 @@
         "comment": "CEntityIndex"
       },
       "m_nLastMagDropAttachmentIndex": {
-        "value": 5688,
+        "value": 5692,
         "comment": "int32_t"
       },
       "m_nMyCollisionGroup": {
@@ -7298,15 +7318,15 @@
         "comment": "int32_t"
       },
       "m_nPlayerInfernoBodyFx": {
-        "value": 5676,
-        "comment": "ParticleIndex_t"
-      },
-      "m_nPlayerInfernoFootFx": {
         "value": 5680,
         "comment": "ParticleIndex_t"
       },
+      "m_nPlayerInfernoFootFx": {
+        "value": 5684,
+        "comment": "ParticleIndex_t"
+      },
       "m_nPlayerSmokedFx": {
-        "value": 5672,
+        "value": 5676,
         "comment": "ParticleIndex_t"
       },
       "m_nSurvivalTeamNumber": {
@@ -7358,7 +7378,7 @@
         "comment": "Vector"
       },
       "m_vLastSmokeOverlayColor": {
-        "value": 5660,
+        "value": 5664,
         "comment": "Vector"
       },
       "m_vecBulletHitModels": {

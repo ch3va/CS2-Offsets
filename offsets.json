@@ -2,43 +2,43 @@
   "client_dll": {
     "data": {
       "dwEntityList": {
-        "value": 25903000,
+        "value": 25963864,
         "comment": null
       },
       "dwForceAttack": {
-        "value": 24256960,
+        "value": 24313888,
         "comment": null
       },
       "dwForceAttack2": {
-        "value": 24257104,
+        "value": 24314032,
         "comment": null
       },
       "dwForceBackward": {
-        "value": 24257680,
+        "value": 24314608,
         "comment": null
       },
       "dwForceCrouch": {
-        "value": 24258400,
+        "value": 24315328,
         "comment": null
       },
       "dwForceForward": {
-        "value": 24257536,
+        "value": 24314464,
         "comment": null
       },
       "dwForceJump": {
-        "value": 24258256,
+        "value": 24315184,
         "comment": null
       },
       "dwForceLeft": {
-        "value": 24257824,
+        "value": 24314752,
         "comment": null
       },
       "dwForceRight": {
-        "value": 24257968,
+        "value": 24314896,
         "comment": null
       },
       "dwGameEntitySystem": {
-        "value": 27072880,
+        "value": 27133840,
         "comment": null
       },
       "dwGameEntitySystem_getHighestEntityIndex": {
@@ -46,39 +46,39 @@
         "comment": null
       },
       "dwGameRules": {
-        "value": 26283952,
+        "value": 26344608,
         "comment": null
       },
       "dwGlobalVars": {
-        "value": 24235616,
+        "value": 24292256,
         "comment": null
       },
       "dwGlowManager": {
-        "value": 26285008,
+        "value": 26345664,
         "comment": null
       },
       "dwInterfaceLinkList": {
-        "value": 27273672,
+        "value": 27334872,
         "comment": null
       },
       "dwLocalPlayerController": {
-        "value": 26228968,
+        "value": 26289528,
         "comment": null
       },
       "dwLocalPlayerPawn": {
-        "value": 24286008,
+        "value": 24342952,
         "comment": null
       },
       "dwPlantedC4": {
-        "value": 26326264,
+        "value": 26381016,
         "comment": null
       },
       "dwPrediction": {
-        "value": 24285696,
+        "value": 24342640,
         "comment": null
       },
       "dwSensitivity": {
-        "value": 26287352,
+        "value": 26348008,
         "comment": null
       },
       "dwSensitivity_sensitivity": {
@@ -86,15 +86,15 @@
         "comment": null
       },
       "dwViewAngles": {
-        "value": 26358736,
+        "value": 26413488,
         "comment": null
       },
       "dwViewMatrix": {
-        "value": 26301616,
+        "value": 26362272,
         "comment": null
       },
       "dwViewRender": {
-        "value": 26303792,
+        "value": 26364448,
         "comment": null
       }
     },
@@ -103,11 +103,15 @@
   "engine2_dll": {
     "data": {
       "dwBuildNumber": {
-        "value": 5322084,
+        "value": 5326196,
         "comment": null
       },
       "dwNetworkGameClient": {
-        "value": 5319368,
+        "value": 5323464,
+        "comment": null
+      },
+      "dwNetworkGameClient_deltaTick": {
+        "value": 600,
         "comment": null
       },
       "dwNetworkGameClient_getLocalPlayer": {
@@ -123,11 +127,11 @@
         "comment": null
       },
       "dwWindowHeight": {
-        "value": 6073348,
+        "value": 6081756,
         "comment": null
       },
       "dwWindowWidth": {
-        "value": 6073344,
+        "value": 6081752,
         "comment": null
       }
     },
@@ -136,7 +140,7 @@
   "game_info": {
     "data": {
       "buildNumber": {
-        "value": 13993,
+        "value": 14000,
         "comment": "Game build number"
       }
     },
@@ -150,5 +154,18 @@
       }
     },
     "comment": "inputsystem.dll"
+  },
+  "matchmaking_dll": {
+    "data": {
+      "dwGameTypes": {
+        "value": 1909216,
+        "comment": null
+      },
+      "dwGameTypes_mapName": {
+        "value": 1909504,
+        "comment": null
+      }
+    },
+    "comment": "matchmaking.dll"
   }
 }
